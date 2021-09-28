@@ -1,0 +1,90 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=pgdac_sept_21_B;SENT-BY="mailto:pgdacsep21B@dcservices.in":mailt
+ o:pgdac_sept_21_B@dcservices.in
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=PGDAC_BATC
+ HB_Sep21:mailto:pgdacsep21B@dcservices.in
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=pgdac_sept
+ _21_B:mailto:pgdac_sept_21_B@dcservices.in
+DESCRIPTION;LANGUAGE=en-US:\n\n\n__________________________________________
+ ______________________________________\nMicrosoft Teams meeting\nJoin on y
+ our computer or mobile app\nClick here to join the meeting<https://teams.m
+ icrosoft.com/l/meetup-join/19%3ac3abbc3ee81c4c99827b71777748b283%40thread.
+ tacv2/1632210537351?context=%7b%22Tid%22%3a%22815d4bb1-af63-410d-a95e-9c19
+ 1f46ef9a%22%2c%22Oid%22%3a%22e994d7db-811d-427b-aec2-a3330802ac80%22%7d>\n
+ Learn More<https://aka.ms/JoinTeamsMeeting> | Meeting options<https://team
+ s.microsoft.com/meetingOptions/?organizerId=e994d7db-811d-427b-aec2-a33308
+ 02ac80&tenantId=815d4bb1-af63-410d-a95e-9c191f46ef9a&threadId=19_c3abbc3ee
+ 81c4c99827b71777748b283@thread.tacv2&messageId=1632210537351&language=en-U
+ S>\n______________________________________________________________________
+ __________\n\n\nYou're receiving this message because you're a member of t
+ he pgdac_sept_21_B group from Centre For Development of Advanced Computing
+ . To take part in this conversation\, reply all to this message.\n\nView g
+ roup files<https://outlook.office365.com/owa/pgdac_sept_21_B@dcservices.in
+ /groupsubscription.ashx?source=EscalatedMessage&action=files&GuestId=bfe76
+ 388-ebab-4cf5-872f-4a8a339e4268>   |   Leave group<https://outlook.office3
+ 65.com/owa/pgdac_sept_21_B@dcservices.in/groupsubscription.ashx?source=Esc
+ alatedMessage&action=leave&GuestId=bfe76388-ebab-4cf5-872f-4a8a339e4268>  
+  |   Learn more about Microsoft 365 Groups<https://aka.ms/o365g>\n\n
+RRULE:FREQ=WEEKLY;INTERVAL=1;BYDAY=MO,TU,WE,TH,FR;WKST=SU
+UID:040000008200E00074C5B7101A82E0080000000073026B22BDAED701000000000000000
+ 010000000FA27FC7EB7C737499933AFDAE3B04C2D
+SUMMARY;LANGUAGE=en-US:concept of programming
+DTSTART;TZID=India Standard Time:20210921T163000
+DTEND;TZID=India Standard Time:20210921T193000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20210927T092719Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:1
+LOCATION;LANGUAGE=en-US:
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-OWNERAPPTID:2119806835
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ac3abbc3ee81c4c99827b71777748b283%40thread.tacv2/1632210537351?context
+ =%7b%22Tid%22%3a%22815d4bb1-af63-410d-a95e-9c191f46ef9a%22%2c%22Oid%22%3a%
+ 22e994d7db-811d-427b-aec2-a3330802ac80%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/815d4bb1-af63-410d-a95e-9c191f46ef9a/e994d7db-811d-427b-aec2-a
+ 3330802ac80/19_c3abbc3ee81c4c99827b71777748b283@thread.tacv2/1632210537351
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:c3abbc3ee81c4c99827b71777748b28
+ 3@thread.tacv2"\,"rid":1632210537351\,"mid":1632210537351\,"uid":"8:orgid:
+ e994d7db-811d-427b-aec2-a3330802ac80"\,"private":false\,"type":0}
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:pgdacsep21B@dcservices.in\;gruu\
+ ;opaque=app:conf:focus:id:teams:2:1632210537351!19:c3abbc3ee81c4c99827b717
+ 77748b283-thread.tacv2!e994d7db811d427baec2a3330802ac80!815d4bb1af63410da9
+ 5e9c191f46ef9a
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONS:[]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
